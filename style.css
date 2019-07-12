@@ -1,0 +1,39 @@
+html {
+    background-color: cadetblue;
+}
+
+h1 {
+    font-family: "Poiret One";
+    color: beige;
+    font-size: 5em;
+    text-align: center;
+    border-bottom: 2px solid currentColor;
+    line-height: 1.75;
+}
+
+ul {
+    width: 250px;
+}
+
+li {
+    color: cornsilk;
+    font-size: 1.5em;
+    font-family: "Inconsolata", monospace;
+    width: 250px;
+}
+
+li :hover {
+    color: rgb(36, 52, 104);
+}
+
+li :active {
+    color: rgb(235, 245, 245);
+}
+
+li :visited {
+    color: rgb(24, 49, 49);
+}
+
+img {
+    float: right;
+}
