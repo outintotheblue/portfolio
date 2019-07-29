@@ -1,0 +1,41 @@
+.portrait {
+    border-radius: 50%;
+    float: right;
+    height: 500px;
+}
+
+.short {
+    border: none;
+    border-top: 1px dotted;
+    width: 50%;
+}
+
+#experience {
+    background-color: rgb(92, 38, 38);
+    font-family: "Roboto";
+    border: 3px solid #ffffff;
+    border-radius: 12px;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+#about {
+    background-color: rgb(92, 38, 38);
+    font-family: "Roboto";
+    border: 3px solid #ffffff;
+    border-radius: 12px;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+header {
+    font-family: "Roboto";
+}
+
+p {
+    color: white;
+}
+
+ul {
+    color: white;
+}

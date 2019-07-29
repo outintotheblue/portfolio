@@ -1,0 +1,99 @@
+header {
+    margin: 0;
+    top: 0;
+    background-color: rgb(231, 167, 95);
+    width: 100%;
+}
+
+header img {
+    float: right;
+    border-radius: 10px;
+    width: 15%;
+    height: auto;
+}
+
+h1 {
+    font-size: 7em;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
+img {
+    width: 15rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+}
+
+li a {
+    font-size: 1.25em;
+    display: block;
+    color: rgb(43, 42, 44);
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+#sidebar {
+    height: 100%;
+    position: fixed;
+    width: 200px;
+    top: 0;
+    left: 0;
+}
+
+#sidebar a:hover {
+    background-color: darkslategrey;
+    color: beige;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin-left: 250px;
+}
+
+footer {
+    font-family: sans-serif;
+    margin-left: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+input {
+    border-radius: 5px;
+    width: 250px;
+    background-color: rgb(231, 167, 95);
+    border: 0;
+    margin: 10px;
+    padding: 10px;
+}
+
+textarea {
+    border-radius: 7px;
+    width: 300px;
+    border: 0;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(231, 167, 95);
+    text-align: center;
+    font-size: 15px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+    width: 250px;
+    background-color: rgb(231, 167, 95);
+    border: 0;
+    margin: 10px;
+    padding: 10px;
+}
+
+#aboutp {
+    font-size: 2em;
+}

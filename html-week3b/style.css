@@ -1,0 +1,90 @@
+html {
+	background-color: ghostwhite;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background-color: darkgray;
+	padding: 3%;
+}
+
+body {
+	margin: 10px;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: Roboto, sans-serif;
+}
+
+.topnav input[type=text] {
+	float: right;
+	padding: 6px;
+	margin-top: 1px;
+	margin-right: 3px;
+	font-size: 17px;
+	font-family: Roboto, sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+	text-transform: uppercase;
+	color: rgb(195, 224, 191);
+}
+
+ul {
+	display: grid;
+	border: 2px;
+	border-color: rgb(72, 148, 114);
+}
+
+.articles {
+	display: grid;
+	grid-gap: 1em;
+	grid-template-columns: repeat(2, minmax(min-content, 25vw));
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 1%;
+	margin: 2%;
+	justify-content: center;
+}
+
+.logo {
+	float: right;
+	animation-name: turn;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes turn {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(90deg);
+	}
+	100% {
+		transform: rotate(180deg);
+	}
+}
+
+footer {
+	background-color: darkgray;
+	padding: 3%;
+}
+
+button {
+	background: white;
+	border: 1px;
+	border-color: black;
+	border-radius: 5%;
+	text-transform: uppercase;
+	margin: 1%;
+	padding: 0.75%;
+}
