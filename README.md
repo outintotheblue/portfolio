@@ -1,7 +1,6 @@
 <html>
-  <h1> This is my Git </h1>
+  <h1> Welcome to my Git </h1>
  
-https://outintotheblue.github.io/portfolio
 
   </html>
   
