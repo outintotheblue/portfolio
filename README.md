@@ -1,7 +1,8 @@
 <html>
-  <h1> This is my Git </h1>
- 
-https://outintotheblue.github.io/portfolio
+  <h1> Welcome to my Git </h1>
+  
+  Here you can find my projects for foocoding stockholm! 
+htlm - css - javaScript - node - react - databases 
 
   </html>
   
