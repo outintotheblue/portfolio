@@ -48,21 +48,45 @@ p {
     text-align: justify;
 }
 
+
+h2 {
+    color: white;
+    text-align: center;
+}
+.container {
+    max-width: 700px;
+    width: 100%;
+    margin-left: 30%;
+    position: relative;
+    background: #F9F9F9;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(100, 98, 98, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+form{
+}
+.field {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin-bottom: 5px;
+    padding: 10px 0px 10px;
+    text-align: center;
+  
+}
 button {
+    cursor: pointer;
+    width: 250px;
     font-family: Heebo;
     background-color: #FF7F50;
     color: white;
     border-radius: 10px;
 }
-
-footer {
-    margin-left: 1505px;
+.subscribe {
+    text-align: center;
 }
-
-.gray-background {
-    background-color: gray;
+.boxes {
+    text-align: center;
 }
-
 img {
     margin-left: 500px;
 }

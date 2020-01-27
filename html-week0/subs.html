@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Subscribe</title>
+</head>
+<body>
+    <h2> Subscribe to our newsletter </h2>
+    <div class='container'>
+    <form class="registration" action="/submit-email">
+        <input class='field' placeholder='Name' type='text' required><br/>
+        <input class='field' placeholder='Last Name' type='text' required><br/><br/>
+        <div class='boxes'>
+            <h5>select your brands</h5>
+            <label for="Canon"><input id="Canon" type="checkbox" name="type of camera">Canon </label>
+            <label for="Nikon"><input id="Nikon" type="checkbox" name="type of camera">Nikon </label>
+            <label for="Panasonic"><input id="Panasonic" type="checkbox" name="type of camera">Panasonic </label>
+            <label for="Sony"><input id="Sony" type="checkbox" name="type of camera">Sony </label>
+            <br/>
+            <h5>mark your favourite</h5>
+            <label for="Photo">
+            <input id="Photo" type="radio" name="Photo-Video">Photo </label>
+            <label for="Video">
+            <input id="Video" type="radio" name="Photo-Video">Video </label><br><br/>
+        </div>    
+        <input class ='field' type="text" required placeholder="your email here"><br/><br/>
+        <div class='subscribe'>
+            <button type="submit"> SUBSCRIBE</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
