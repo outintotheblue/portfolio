@@ -1,3 +1,8 @@
+h1 {
+    letter-spacing: 0.1em;
+    font-size: 3em;
+}
+
 .portrait {
     border-radius: 50%;
     float: right;
@@ -11,16 +16,18 @@
 }
 
 #experience {
-    background-color: rgb(92, 38, 38);
+    background-color: rgb(193, 209, 233);
     font-family: "Roboto";
     border: 3px solid #ffffff;
     border-radius: 12px;
     margin: 2rem;
     padding: 1rem;
 }
-
+.personal-info {
+    margin-left: 2rem;
+}
 #about {
-    background-color: rgb(92, 38, 38);
+    background-color: rgb(193, 209, 233);
     font-family: "Roboto";
     border: 3px solid #ffffff;
     border-radius: 12px;
@@ -30,12 +37,4 @@
 
 header {
     font-family: "Roboto";
-}
-
-p {
-    color: white;
-}
-
-ul {
-    color: white;
 }
