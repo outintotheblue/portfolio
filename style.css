@@ -9,6 +9,7 @@ h1 {
 	text-align: center;
 	border-bottom: 2px solid currentColor;
 	line-height: 1.75;
+	margin-bottom: 0;
 }
 
 h2 {
@@ -16,10 +17,21 @@ h2 {
 
 }
 
+p {
+	font-size: 1.5em;
+	font-family: 'Barlow';
+	letter-spacing: 0.1em;
+	color: beige;
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
 a {
 	color: beige;
+	text-decoration: none;
 }
-
+.links {
+	margin-left: 5%;
+}
 ul {
 	width: 250px;
 	list-style-type: none;
@@ -32,20 +44,9 @@ li {
 	width: 250px;
 }
 
-li :hover {
-	color: rgb(36, 52, 104);
-}
-
-li :active {
-	color: rgb(235, 245, 245);
-}
-
-li :visited {
-	color: rgb(24, 49, 49);
-}
-
 img {
 	float: right;
+	margin-right: 5%;
 }
 
 #poke {
